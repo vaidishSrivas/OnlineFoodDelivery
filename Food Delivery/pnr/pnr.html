@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>IRCTC</title>
+        <link rel="stylesheet" href="pnr.css">
+        <script type="text/javascript" src="pnr.js"></script>
+    </head>
+    <body>
+        <!--Top area-->
+        <div class="horizontal_menu">
+            <img src="http://localhost/Food Delivery/images/railwayicon.png" class="menu_image">
+            <p id="heading">Online Food Delivery</p>
+            
+            <a href="http://localhost/Food Delivery/ContactUs/contactUs.html">Contact Us</a>
+            <a href="http://localhost/Food Delivery/aboutUs/aboutUs.html">About Us</a>
+            <a href="http://localhost/Food Delivery/Home/index.html">Home</a>
+        </div>
+        
+        <!--Middle area-->
+        <div class="homeDisplay">
+            <img src="http://localhost/Food Delivery/images/pnrDisplay.jpg" class="home_image">
+            <div class="image_text">Enter Your PNR Number</div>
+            <form method="post" action = "pnr.php">
+                <input type="text" id="pnrno" name="pnr">
+                <button id="log" onclick="check()">Login</button>
+                
+            </form>
+        </div>
+        
+    </body>
+</html>

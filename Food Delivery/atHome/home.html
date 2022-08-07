@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>At Home</title>
+        <link rel="stylesheet" href="home.css">
+        <script type="text/javascript" src = "home.js"></script>
+    </head>
+    <body>
+        <div class="horizontal_menu">
+            <img src="http://localhost/Food Delivery/images/railwayicon.png" class="menu_image">
+            <p id="heading">Online Food delivery System</p>
+            
+            <a href="http://localhost/Food Delivery/aboutUs/aboutUs.html">About Us</a>
+            <a href="http://localhost/Food Delivery/ContactUs/contactUs.html">Contact Us</a>
+            <a href="http://localhost/Food Delivery/Home/index.html">Home</a>
+        </div> 
+        
+        <div class="container">
+            <img src="http://localhost/Food Delivery/images/inHomeDisplay.jpeg" class="home_image">
+            <p class="image_text">Your food will be deliverd<br>to you from the site </p>
+            <div class="check"> <p id="content">Your deafult address is selected <br>If you wish to change address<br>Type below</p><br><br>
+                
+                <input type="text" placeholder="Enter new address" id="add"><br><br>
+                <input type="button" value="Continue" id="continue" onclick="address()">
+                
+            </div>
+        
+        </div>
+        
+        <div class="wrapper">
+            <h1>Shopping Cart</h1>
+            <div class="project">
+                <div class="shop">
+                    <div class="box">
+                        <img src="http://localhost/Food Delivery/Foods/biriyani.jpg" style="height:fit-content"/>
+                        <div class="content">
+                            <h3>Biriyani</h3>
+                            <h4>Price: &#8377;150 | 250g</h4>
+                            
+                            <p class="unit">Quantity: <input type="number" id="quantity1" value="0"></p>
+                            <button class="btn-buy" onclick="cal1()">Add To cart</button>
+                            <button class="btn-remove" onclick="remove(1)">Remove</button>
+                        </div>
+                    </div>
+    
+                    <div class="box">
+                        <img src="http://localhost/Food Delivery/Foods/7up.png" style="height:fit-content"/>
+                        <div class="content">
+                            <h3>Man's Watches</h3>
+                            <h4>Price: &#8377;60 | 500ml</h4>
+                            <p class="unit">Quantity: <input type="number" id="quantity2" value="0"></p>
+                            <button class="btn-buy" onclick="cal2()">Add To cart</button>
+                            <button class="btn-remove" onclick="remove(2)">Remove</button>
+                        </div>
+                    </div>
+    
+                    <div class="box">
+                        <img src="http://localhost/Food Delivery/Foods/burger.png" style="height:fit-content"/>
+                        <div class="content">
+                            <h3>Burger</h3>
+                            <h4>Price: &#8377;120 | 2 piece</h4>
+                            <p class="unit">Quantity: <input type="number" id="quantity3" value="0"></p>
+                            <button class="btn-buy" onclick="cal3()">Add To cart</button>
+                            <button class="btn-remove" onclick="remove(3)">Remove</button>
+                        </div>
+                    </div>
+    
+                    <div class="box">
+                        <img src="http://localhost/Food Delivery/Foods/dosa.png" style="height:fit-content"/>
+                        <div class="content">
+                            <h3>Dosa</h3>
+                            <h4>Price: &#8377;80 | 1 Full</h4>
+                            <p class="unit">Quantity: <input type="number" id="quantity4" value="0"></p>
+                            <button class="btn-buy" onclick="cal4()">Add To cart</button>
+                            <button class="btn-remove" onclick="remove(4)">Remove</button>
+                        </div>
+                    </div>
+    
+                    <div class="box">
+                        <img src="http://localhost/Food Delivery/Foods/friedChicken.png" style="height:fit-content"/>
+                        <div class="content">
+                            <h3>Fried Chicken</h3>
+                            <h4>Price: &#8377;350 | 500g</h4>
+                            <p class="unit">Quantity: <input type="number" id="quantity5" value="0"></p>
+                            <button class="btn-buy" onclick="cal5()">Add To cart</button>
+                            <button class="btn-remove" onclick="remove(5)">Remove</button>
+                        </div>
+                    </div>
+    
+                    <div class="box">
+                        <img src="http://localhost/Food Delivery/Foods/friedRice.png" style="height:fit-content"/>
+                        <div class="content">
+                            <h3>Fried Rice</h3>
+                            <h4>Price: &#8377;60 | 250g</h4>
+                            <p class="unit">Quantity: <input type="number" id="quantity6" value="0"></p>
+                            <button class="btn-buy" onclick="cal6()">Add To cart</button>
+                            <button class="btn-remove" onclick="remove(6)">Remove</button>
+                        </div>
+                    </div>
+    
+                    <div class="box">
+                        <img src="http://localhost/Food Delivery/Foods/grillChicken.png" style="height:fit-content"/>
+                        <div class="content">
+                            <h3>Grill Chicken</h3>
+                            <h4>Price: &#8377;200 | 5 piece</h4>
+                            <p class="unit">Quantity: <input type="number" id="quantity7" value="0"></p>
+                            <button class="btn-buy" onclick="cal7()">Add To cart</button>
+                            <button class="btn-remove" onclick="remove(7)">Remove</button>	
+                        </div>
+                    </div>
+    
+                    <div class="box">
+                        <img src="http://localhost/Food Delivery/Foods/kabab.png" style="height:fit-content"/>
+                        <div class="content">
+                            <h3>Kabab</h3>
+                            <h4>Price: &#8377;150 | 4 piece</h4>
+                            <p class="unit">Quantity: <input type="number" id="quantity8" value="0"></p>
+                            <button class="btn-buy" onclick="cal8()">Add To cart</button>	
+                            <button class="btn-remove" onclick="remove(8)">Remove</button>
+                        </div>
+                    </div>
+    
+                    <div class="box">
+                        <img src="http://localhost/Food Delivery/Foods/nonvegThali.png" style="height:fit-content"/>
+                        <div class="content">
+                            <h3>Non-veg Thali</h3>
+                            <h4>Price: &#8377;120 | 1 Full</h4>
+                            <p class="unit">Quantity: <input type="number" id="quantity9" value="0"></p>
+                            <button class="btn-buy" onclick="cal9()">Add To cart</button>
+                            <button class="btn-remove" onclick="remove(9)">Remove</button>	
+                        </div>
+                    </div>
+    
+                    <div class="box">
+                        <img src="http://localhost/Food Delivery/Foods/vegThali.png" style="height:fit-content"/>
+                        <div class="content">
+                            <h3>Veg Thali</h3>
+                            <h4>Price: &#8377;100 | 1 Full</h4>
+                            <p class="unit">Quantity: <input type="number" id="quantity10" value="0"></p>
+                            <button class="btn-buy" onclick="cal10()">Add To cart</button>
+                            <button class="btn-remove" onclick="remove(10)">Remove</button>		
+                        </div>
+                    </div>
+    
+                    <div class="box">
+                        <img src="http://localhost/Food Delivery/Foods/paneerTika.png" style="height:fit-content"/>
+                        <div class="content">
+                            <h3>Panner Tika</h3>
+                            <h4>Price: &#8377;80 | 8 piece</h4>
+                            <p class="unit">Quantity: <input type="number" id="quantity11" value="0"></p>
+                            <button class="btn-buy" onclick="cal11()">Add To cart</button>
+                            <button class="btn-remove" onclick="remove(11)">Remove</button>
+                        </div>
+                    </div>
+    
+    
+                </div>
+                <div class="right-bar">
+                    <p><span>items</span> <span id="item" style="font-size: medium;"></span></p>
+                    <hr>
+                    <p><span>Subtotal</span> <span id="totalamt">0</span></p>
+                    <hr>
+                    <p><span>Tax (5%)</span> <span id="tax">0</span></p>
+                    <hr>
+                    <p><span>Shipping</span> <span id="delivery">20</span></p>
+                    <hr>
+                    <p><span>Total</span> <span id="total">0</span></p>
+                    <hr>
+                    <button class="checkout" onclick="cal()">Checkout</button>
+                    <hr>
+                    <button class="bill" onclick="bill()">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href = "temp.css">
+    </head>
+    <body>
+        <div class="content">
+            <p>Get Connected us on social media</p><br>
+            <div class="menu">
+                <a href="https://www.facebook.com/IRCTCofficial/">Facebook</a>
+                <a href="https://twitter.com/IRCTCofficial">Twitter</a>
+                <a href="https://www.linkedin.com/company/irctcofficial/">LinkedIn</a>
+            </div>
+
+            <p>Thank you for getting connected with us <br>
+                If you have any suggestion feel free to write us in 
+                <a href="C:/IRCTC Food Delivery/ContactUs/contactUs.html">Contact US</a> 
+            </p> 
+            <p id = "last">© 2019 IRCTC | CIN : L74899DL1999GOI101707 | All rights reserved | Developed By IRCTC</p>
+        </div>
+    </body>
+</html>
+
+
+
+.content {
+    background-color: black;
+    width: 100%;
+    height: fit-content;
+    color: white;
+    font-size: larger;
+}
+.menu {
+    text-align: center;
+}
+#last {
+    text-align: center;
+}
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+<div class="login">
+                <h1>Login</h1>
+                <form>
+                    <input type="text" placeholder="Enter Your Email Address" id="name"><br><br>
+                    <input type="password" placeholder="Enter Your password" id="password"><br>
+                    <p id="new_login">New User <a href="C:/IRCTC Food Delivery/signin/signup.html">sing in</a></p><br>
+                    <button id="submit">Login</button>
+                </form>
+            </div>
+
+<!--Buttom area-->
+        <div class="train_order">
+            <a href="C:/IRCTC Food Delivery/inTrain/train.html"><img src="trainFood.jpg" class="train_food">
+            <div class="train_order_text">Order In Train</div></a>
+        </div>
+        
+        <div class="home_order">
+            <a href="C:/IRCTC Food Delivery/atHome/home.html"><img src="homeFood.jpg" class="home_food">
+            <div class="home_order_text">Order At Home</div></a>
+        </div>
+
+        /*Bottom Area*/
+
+
+.login {
+    background-color: white;
+    position: absolute;
+    top: 10%;
+    left:70%;
+    bottom: 10%;
+    width: 20%;
+    height: 80%;
+    color: black ;
+    border-radius: 10px;
+}
+#name {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+#password {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+#submit {
+    background-color: green;
+    color: white;
+    width: 20%;
+    height: 10%;
+    border-radius: 5px;
+}
+
+.train_food {
+    width: 30%;
+    height: 35%;
+    border: solid black 1px;
+    position: absolute;
+    left:5%;
+    border-radius: 20px;
+    filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+.train_order_text {
+    position: absolute;
+    top: 95%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 150%;
+    color: green;
+    font-weight: bold;
+}
+.home_order_text {
+    position: absolute;
+    top: 95%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    font-size: 150%;
+    color: green;
+    font-weight: bold;
+}
+.home_food {
+    width: 30%;
+    height: 35%;
+    border: solid black 1px;
+    position: absolute;
+    right: 5%;
+    border-radius: 20px;
+    filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+

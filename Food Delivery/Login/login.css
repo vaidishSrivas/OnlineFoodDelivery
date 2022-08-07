@@ -1,0 +1,81 @@
+/*Top Area*/
+.horizontal_menu img{
+    width: 5%;
+    height: 90%;
+    float: lefts;
+  }
+
+#heading {
+    display:inline-block;
+    vertical-align:top;
+    font-size: 2vw;;
+    font-weight: 600;
+    margin-top: 1%;
+}
+.horizontal_menu{
+    height: auto;
+    width: 100%;
+}
+
+.horizontal_menu a {
+    color: black; 
+    display: block; 
+    padding: 12px; 
+    text-decoration: none; 
+    float: right;
+    display: flex;
+    width: 10%;
+    font-size: auto;  
+}
+  
+.horizontal_menu a:hover {
+    background-color: #C5C5C5; 
+}
+.first {
+    width: 50%; 
+    height: 100%; 
+    float: left;    
+    position: fixed;
+    text-align: center;
+    margin-top: 10%;
+    font-size: x-large;
+}
+#email {
+    width: 30%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+#password {
+    width: 30%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+#login {
+    font-size: x-large;
+    background-color: #2196F3;
+    border-radius: 10px;
+}
+.second {
+    margin-left: 50%; 
+    width: 50%;
+    height: 100%; 
+    position: fixed;
+    background: #85DE99;
+    text-align: center;
+    font-size: x-large;
+}
+.content {
+    margin-top: 25%;
+    margin-bottom: 40%;
+}
+#signin {
+    font-size: x-large;
+    background-color: #2196F3;
+    border-radius: 10px;
+}

@@ -1,0 +1,21 @@
+						Home
+						 |
+					       Choice			        
+    				    ____________________________	
+				at Home			    in train
+				  |			      |
+				Login/Signup		     pnr
+				  |			      |
+				 Cart			     Cart
+				  |			      |
+				 Bill			     Bill		
+
+index{home}
+ContactUs
+AboutUs
+Choice
+home 
+train 
+Login
+sigin
+pnr
